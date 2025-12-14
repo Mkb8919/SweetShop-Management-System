@@ -1,0 +1,23 @@
+import axios from "axios";
+
+const API_URL = "http://localhost:8080/api";  // Spring Boot backend URL
+
+// Auth APIs
+export const registerUser = (userData) => {
+  return axios.post(`${API_URL}/auth/register`, userData);
+};
+
+export const loginUser = (credentials) => {
+  return axios.post(`${API_URL}/auth/login`, credentials);
+};
+
+// Sweets APIs (example)
+export const getAllSweets = () => {
+  return axios.get(`${API_URL}/sweets`);
+};
+
+export const addSweet = (sweetData, token) => {
+  return axios.post(`${API_URL}/sweets`, sweetData, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+};
