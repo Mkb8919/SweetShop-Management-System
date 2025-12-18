@@ -145,7 +145,7 @@ CRUD and inventory flows manually tested
 
 (Test automation planned / partially implemented as part of TDD approach)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🤖 My AI Usage 
 AI Tool Used
 
@@ -175,3 +175,10 @@ ChatGPT significantly improved my productivity and helped me debug issues faster
 I consider it a pair-programming assistant, not a replacement for my own understanding or effort.
 
 The final codebase is my own work, created responsibly and transparently in compliance with the assessment guidelines.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📸 Screenshots
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f4ed7f8e-28a6-4866-a8bd-7880f06b0edc" />
+
